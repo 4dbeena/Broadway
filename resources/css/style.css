@@ -4,7 +4,8 @@ body {
 }
 
 h1,
-.nav a {
+.nav a,
+h3.with-image {
   color: White;
 }
 
@@ -14,7 +15,9 @@ h1,
   padding-bottom: 10px;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-weight: bold;
 }
 
@@ -22,6 +25,18 @@ h1 {
   font-size: 70px;
 }
 
-.top-image {
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.with-image {
   background-image: url("../images/the-flatiron-building.png");
 }
